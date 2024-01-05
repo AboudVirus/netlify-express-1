@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neverendingqs/netlify-express.git"
+    "url": "git+https://github.com/AboudVirus/netlify-express-1.git"
   },
   "keywords": [
     "netlify",
@@ -18,12 +18,12 @@
   "author": "neverendingqs",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/neverendingqs/netlify-express/issues"
+    "url": "https://github.com/AboudVirus/netlify-express-1/issues"
   },
   "engines": {
   "node": "14.x"
   },
-  "homepage": "https://github.com/neverendingqs/netlify-express#readme",
+  "homepage": "https://github.com/AboudVirus/netlify-express-1#readme",
   "dependencies": {},
   "devDependencies": {
     "body-parser": "^1.19.0",
