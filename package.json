@@ -23,6 +23,9 @@
   "engines": {
   "node": "14.x"
   },
+  "browser":{
+"child_process": false
+},
   "homepage": "https://github.com/AboudVirus/netlify-express-1#readme",
   "dependencies": {},
   "devDependencies": {
