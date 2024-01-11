@@ -6,8 +6,7 @@ const serverless = require('serverless-http');
 const app = express();
 const bodyParser = require('body-parser');
 const Discord = require('discord.js');
-const client = new Discord.Client({
-});
+const client = new Discord.Client({});
 client.on('ready', async() => {
 console.log(`Hello my name is : ${client.user.tag}`)
 })
@@ -24,6 +23,6 @@ app.use(bodyParser.json());
 app.use('/.netlify/functions/server', router);  // path must route to lambda
 app.use('/', (req, res) => res.sendFile(path.join(__dirname, '../index.html')));
 
-client.login(process.env.token)
+//client.login(process.env.token)
 module.exports = app;
 module.exports.handler = serverless(app);
