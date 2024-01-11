@@ -21,7 +21,7 @@
     "url": "https://github.com/AboudVirus/netlify-express-1/issues"
   },
   "engines": {
-  "node": "18.x"
+  "node": "17.x"
   },
   "browser":{
 "child_process": false
@@ -31,7 +31,7 @@
   "devDependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.18.2",
-    "discord.js": "^14.12.1",
+    "discord.js": "^13.12.1",
     "netlify-lambda": "^1.6.3",
     "nodemon": "^1.19.2",
     "serverless-http": "^2.3.0"
