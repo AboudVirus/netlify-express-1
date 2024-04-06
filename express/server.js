@@ -5,11 +5,7 @@ const path = require('path');
 const serverless = require('serverless-http');
 const app = express();
 const bodyParser = require('body-parser');
-const Discord = require('discord.js');
-const client = new Discord.Client({});
-client.on('ready', async() => {
-console.log(`Hello my name is : ${client.user.tag}`)
-})
+
 const router = express.Router();
 router.get('/', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
