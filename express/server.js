@@ -19,6 +19,6 @@ app.use(bodyParser.json());
 app.use('/.netlify/functions/server', router);  // path must route to lambda
 app.use('/', (req, res) => res.sendFile(path.join(__dirname, '../index.html')));
 
-//client.login(process.env.token)
+
 module.exports = app;
 module.exports.handler = serverless(app);
